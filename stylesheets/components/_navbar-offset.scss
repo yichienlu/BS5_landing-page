@@ -1,0 +1,8 @@
+.navbar-offset::before {
+    content: '';
+    display: block;
+    height: 55px;
+    margin-top: -55px;
+    visibility: hidden;
+}
+//須放在沒有padding-top或margin-top的標籤中

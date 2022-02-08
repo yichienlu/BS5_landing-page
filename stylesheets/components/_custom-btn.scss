@@ -1,0 +1,11 @@
+.custom-btn {
+    color: $dark;
+    
+    &:hover{
+        box-shadow: $box-shadow;
+        color: white;
+    }
+    &.active {
+        color: white;
+    }
+}
