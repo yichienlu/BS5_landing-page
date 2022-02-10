@@ -1,0 +1,13 @@
+.contact-card{
+        display:block;
+        padding-top:24px;
+        padding-bottom: 24px;
+        text-decoration: none;
+        width:260px;
+        box-shadow: $box-shadow;
+        
+        &:hover{
+            box-shadow: $box-shadow-sm;
+            }
+    
+}
